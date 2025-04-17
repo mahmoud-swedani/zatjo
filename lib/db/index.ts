@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 const cached = (global as any).mongoose || { conn: null, promise: null }
 
 export const connectToDatabase = async (
-  MONGODB_URI = process.env.MONGODB_URI
+  MONGODB_URI = 'mongodb+srv://zatjo:admin@cluster0.zrhyz16.mongodb.net/zatjo?retryWrites=true&w=majority&appName=Cluster0'
 ) => {
   if (cached.conn) return cached.conn
 
