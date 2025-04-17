@@ -1,5 +1,0 @@
-NEXT_PUBLIC_APP_NAME=Zatjo
-NEXT_PUBLIC_APP_DESCRIPTION=An Zatjo clone built with Next.js, MongoDB, Shadcn
-NEXT_PUBLIC_SERVER_URL=http://localhost:3000
-MONGODB_URI = mongodb+srv://zatjo:admin@cluster0.zrhyz16.mongodb.net/zatjo?retryWrites=true&w=majority&appName=Cluster0
-AUTH_SECRET=v7a59n6HN3COWeporDl4lxfKkL7UPkvVHOu0FDUetjA=
